@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Matheus da Silva">
+  <meta name="description" content="Site da Koenigsegg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="src/css/pages/style.css">
+  <link rel="stylesheet" href="src/css/layout/layout.css">
+  <link rel="stylesheet" href="src/css/global/global.css">
+  <link rel="stylesheet" href="src/css/components/components.css">
+  <link rel="stylesheet" href="src/css/vendor/reset.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Koenigsegg</title>
+</head>
+<body>
+  <header class="navbar">
+    <nav class="navbar-logo">
+      <img src="src/assets/images/koenigsegg-logo.png" alt="Logo da Koenigsegg">
+      <a href="#">Koenigsegg.</a>
+    </nav>
+    <nav class="navbar-menu">
+      <a id="active" class="nav-item" href="index.html">Início</a>
+      <a class="nav-item" href="src/pages/modelos.html">Modelos</a>
+      <a class="nav-item" href="src/pages/tecnologia.html">Tecnologia</a>
+      <a class="nav-item" href="src/pages/historia.html">História</a>
+      <a class="nav-item" href="src/pages/contato.html">Contato</a>
+    </nav>
+  </header>  
+  <main class="contanier-principal">
+    <section class="section-hero">
+      <div class="hero-description">
+        <h1>INOVAÇÃO SEM LIMITES</h1>
+        <h3>Supercarros artesanais da engenharia sueca</h3>
+        <button class="btn-hero">Descubra os Modelos</button>
+      </div>
+    </section>
+    
+    <section class="section-storytelling">
+      <h1 class="storytelling-title">O Começo de Uma Obsessão</h1>
+      <p>Em 1994, um jovem sueco decidiu que o mundo precisava de algo além do comum.</p>
+      <p>Enquanto outras marcas se contentavam com supercarros, Christian von Koenigsegg sonhava com o inalcançável.</p>
+      <p>A obsessão dele virou uma revolução sobre rodas.</p>
+    </section>
+    
+    <section class="section-technology">
+      <h1 class="technology-title">Tecnologia Obssesiva</h1>
+      <div class="technology-cards">
+        <div class="card-tecnhology">
+          <h2>Motor V8 Biturbo</h2>
+          <p>Desenvolvido internamente, sem correia de distribuição, com mais de 1600hp. Leve, pequeno e brutal.</p>
+        </div>
+        <div class="card-tecnhology">
+          <h2>Transmissão Light Speed</h2>
+          <p>Uma caixa de câmbio sem marchas tradicionais. Trocas em milissegundos, sem perda de tração.</p>
+        </div>
+        <div class="card-tecnhology">
+          <h2>Fibra de Carbono</h2>
+          <p>Ultra leve e rígido. Monocoque construído à mão, com foco absoluto em performance e segurança.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-models">
+      <h1 class="models-title">Modelos em Destaques</h1>
+      <div class="models-cards">
+        <div class="card-model">
+          <div class="model-flip">
+            <div class="flip-front">
+              <img src="src/assets/images/modelo-jesko.jpg" alt="Modelo Koenigsegg Jesko Absolut">
+            </div>
+            <div class="flip-back">
+              <h2>Koenigsegg Jesko Absolut</h2>
+              <p>Feito para ser o carro mais rápido do mundo.</p>
+              <button class="btn-info">Mais detalhes</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-model">
+          <div class="model-flip">
+            <div class="flip-front">
+              <img src="src/assets/images/modelo-agera.jpg" alt="Modelo Koenigsegg Agera">
+            </div>
+            <div class="flip-back">
+              <h2>Koenigsegg Agera</h2>
+              <p>O clássico que quebrou recordes de velocidade.</p>
+              <button class="btn-info">Mais detalhes</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-model">
+          <div class="model-flip">
+            <div class="flip-front">
+              <img src="src/assets/images/modelo-gemera.jpg" alt="Modelo Koenigsegg Gemera">
+            </div>
+            <div class="flip-back">
+              <h2>Koenigsegg Gemera</h2>
+              <p>Primeiro megacarro com espaço pra família.</p>
+              <button class="btn-info">Mais detalhes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-galery">
+      <h1 class="galery-title">Galeria</h1>
+      <div class="galery-images">
+        <a href="#"><img src="src/assets/images/agera.jpg" alt="Koenigsegg Agera"></a>
+        <a href="#"><img src="src/assets/images/cc8s.jpg" alt="Koenigsegg CC8S"></a>
+        <a href="#"><img src="src/assets/images/gemera.jpg" alt="Koenigsegg Gemera"></a>
+        <a href="#"><img src="src/assets/images/regera.jpg" alt="Koenigsegg Regera"></a>
+        <a href="#"><img src="src/assets/images/jesko-absolut.jpg" alt="Koenigsegg Jesko Absolut"></a>
+        <a href="#"><img src="src/assets/images/jesko-attack.jpg" alt="Koenigsegg Jesko Attack"></a>
+      </div>
+    </section>
+    
+    <section class="section-storytelling">
+      <h1 class="storytelling-title">Engenharia com Propósito</h1>
+      <p>Cada detalhe importa. Da fibra de carbono moldada à mão ao motor sem comandos de válvula, tudo existe para desafiar o padrão.</p>
+      <p>Nada aqui é só bonito — é funcional. É obsessão por eficiência.</p>
+      <p>É assim que a engenharia vira arte.</p>
+    </section>
+  </main>
+  
+  <footer class="contanier-footer">
+    <div class="footer-description">
+      <img src="src/assets/images/koenigsegg-logo.png" alt="Logo da Koenigsegg">
+      <div class="media-icons">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+    <p>Site criado por Matheus da Silva.</p>
+  </footer>
+  <script src="src/javascript/script.js"></script>
+</body>
+</html>

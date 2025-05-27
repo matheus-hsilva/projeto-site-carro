@@ -1,0 +1,240 @@
+.contanier-principal{
+  width: 100%;
+  margin: 80px 0 0;
+}
+.section-hero{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url('../../assets/images/hero-img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 550px;
+}
+
+.hero-description{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+}
+
+.hero-description h1{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.btn-hero{
+  border: 2px solid #121212;
+  background-color: #FFFFFF;
+  border-radius: 9px;
+  font-weight: 600;
+  color: #121212;
+  margin: 20px 0 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.btn-hero:hover{
+  background-color: #B22222;
+  color: #FFFFFF;
+  transform: scale(1.117);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-technology{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  background-color: #B22222;
+  padding: 40px 5%;
+}
+
+.technology-title{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.technology-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card-tecnhology{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 250px;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, .3);
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 5px solid #000000;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.card-tecnhology h2{
+  font-weight: 700;
+}
+
+.card-tecnhology p{
+  max-width: 300px;
+  font-weight: 600;
+  margin: 10px 0 0;
+}
+
+.section-models{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  height: 580px;
+  text-align: center;
+  padding: 40px 3%;
+}
+
+.models-title{
+  font-weight: 700;
+  font-size: 2rem;
+  color: #B22222;
+}
+
+.models-cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.card-model{
+  position: relative;
+  width: 27%;
+  height: 350px;
+  perspective: 1000px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card-model:hover .model-flip{
+  transform: rotateY(180deg);
+}
+
+.model-flip{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition-duration: .5s;
+}
+
+.flip-front, .flip-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-front img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 7px solid #B22222;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.flip-back{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 7px solid #FFFFFF;
+  border-radius: 14px;
+  background-color: #B22222;
+  transform: rotateY(180deg);
+}
+
+.flip-back h2{
+  font-weight: 700;
+}
+
+.flip-back p{
+  max-width: 330px;
+  font-weight: 600;
+}
+
+.btn-info{
+  border: 2px solid #Ffffff;
+  background-color: #121212;
+  border-radius: 9px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.btn-info:hover{
+  border: 2px solid #121212;
+  background-color: #FFFFFF;
+  color: #121212;
+  transform: scale(1.117);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-galery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 30px 5%;
+}
+
+.section-galery .galery-title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #121212;
+}
+
+.galery-images{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 30px;
+  width: 100%;
+}
+
+.galery-images img{
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+
+
+
+
